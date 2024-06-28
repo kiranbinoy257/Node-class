@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width:100%;
+    height: 100vh;
+    /* background-color: rgb(23, 136, 102); */
+    background: rgb(2,0,36);
+     background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(121,9,32,1) 35%, rgba(0,212,255,1) 100%);
+    position: relative;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    animation-name: childanimation;
+    animation-duration: 15s;
+    position: absolute;
+    animation-timing-function:ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.ui{
+    height: 550px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 3%;
+    border-radius:10px;
+  
+}
+#d1{
+    height: 35px;
+    width: 230px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 5%;
+    border-radius:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#b1{
+    height: 38px;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 75%;
+    margin-top: 21%;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(121,9,11,0.8603816526610644) 60%, rgba(0,212,255,1) 100%);
+
+}
+#d2{
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    background-color: rgb(85, 59, 109);
+    color: aliceblue;
+    margin-top: 50%;
+    margin-left: 5%;
+    border-radius:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#b2{
+    height: 38px;
+    width: 100px;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 40%;
+    margin-top: 85%;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(121,9,11,0.8603816526610644) 60%, rgba(0,212,255,1) 100%);
+
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    animation-name: childanimation;
+    animation-duration: 15s;
+    position: absolute;
+    animation-timing-function:ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    animation-name: childanimation1;
+    animation-duration: 15s;
+    position: absolute;
+    animation-timing-function:ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes childanimation {
+    /* from{ background-color: aquamarine;}
+    to{background-color: orangered;} */
+    0%{background-color: antiquewhite;top: 0;left: 0;border-radius: 100%;}
+    10%{background-color: rgb(78, 54, 9);top: 83vh;left: 130px;border-radius: 100%;}
+    20%{background-color: rgb(19, 153, 28);top: 0;left: 260px;}
+    30%{background-color: blue;top: 83vh;left: 390px;}
+    40%{background-color: rgb(163, 16, 16);top: 0;left: 520px;}
+    50%{background-color: rgb(169, 22, 113);top: 83vh;left: 650px;border-radius: 100%;}
+    60%{background-color: blue;top: 0;left: 780px;}
+    70%{background-color: rgb(154, 52, 8);top: 83vh;left: 910px;}
+    80%{background-color: rgb(214, 136, 152);top: 0;left: 1040px;}
+    90%{background-color: rgb(224, 192, 13);top: 83vh;left: 1170px;border-radius: 100%;}
+    100%{background-color: rgb(197, 26, 216);top: 0;left: 1250px;border-radius: 100%;}
+}
+@keyframes childanimation1 {
+    /* from{ background-color: aquamarine;}
+    to{background-color: orangered;} */
+    0%{background-color: antiquewhite;top: 0;left: 0;border-radius: 100%;}
+    10%{background-color: rgb(78, 54, 9);top: 83vh;left: 130px;border-radius: 100%;}
+    20%{background-color: rgb(19, 153, 28);top: 0;left: 260px;}
+    30%{background-color: blue;top: 83vh;left: 390px;}
+    40%{background-color: rgb(163, 16, 16);top: 0;left: 520px;}
+    50%{background-color: rgb(169, 22, 113);top: 83vh;left: 650px;border-radius: 100%;}
+    60%{background-color: blue;top: 0;left: 780px;}
+    70%{background-color: rgb(154, 52, 8);top: 83vh;left: 910px;}
+    80%{background-color: rgb(214, 136, 152);top: 0;left: 1040px;}
+    90%{background-color: rgb(224, 192, 13);top: 83vh;left: 1170px;border-radius: 100%;}
+    100%{background-color: rgb(197, 26, 216);top: 0;left: 1250px;border-radius: 100%;}
+}
